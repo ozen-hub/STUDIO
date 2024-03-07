@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
-html{
-    scroll-behavior: smooth;
+html, body{
+    scroll-behavior: smooth!important;
 }
 
 *{
@@ -20,9 +20,40 @@ body::-webkit-scrollbar-thumb{
 }
 
 /* header area */
+.header-outer{
+    position: sticky;
+    top: 0;
+}
 .navbar-brand img{
     height: 50px;
 }
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #d35400;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #34495e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top-outer a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.fa-solid{
+    font-size: 18px;
+    color: white;
+}
+
 /* header area */
 
 .outer{
@@ -33,3 +64,13 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
+/* Home-area */
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://img.freepik.com/free-photo/top-view-laptop-glasses-notepad-dark-textured-background_169016-43217.jpg?t=st=1709829483~exp=1709833083~hmac=2640c264aa864319a5cdebfc852a9bf017b687ac9becb37a69c4a8fa2a7636c3&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Home-area */
