@@ -139,3 +139,17 @@ body::-webkit-scrollbar-thumb{
     color: #34495e;
 }
 /* Home-area */
+
+/* Service-area */
+.service-outer{
+    min-height: 750px;
+    width: 100%;
+    background-image: url('https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg');
+    background-size: cover;
+    background-position: left;
+}
+.service-container{
+    min-height: 750px;
+    border: 1px solid red;
+}
+/* Service-area */
