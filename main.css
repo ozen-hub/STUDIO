@@ -150,6 +150,39 @@ body::-webkit-scrollbar-thumb{
 }
 .service-container{
     min-height: 750px;
-    border: 1px solid red;
+}
+.row{
+    height: 100%;
+}
+.service-containner-inner{
+    height: 100%;
+}
+.service-right-side{
+    min-height: 750px;
+
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.right-top{
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-top:last-child{
+    margin-bottom: 0;
+}
+.right-bottom{
+    height: 350px;
+    background-color: white;
+}
+.service-top-title{
+    color: #FE214F;
+}
+.service-top-desc{
+    margin-top: 20px;
 }
 /* Service-area */
