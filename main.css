@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb{
 
 
 }
-.container{
+.home-container{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -90,4 +90,20 @@ body::-webkit-scrollbar-thumb{
     color: white;
     line-height: 45px;
 }
+
+.home-widgets-outer{
+    margin-top: -120px;
+}
+.widget-outer{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.widget-inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    background-color: white;
+}
+
 /* Home-area */
