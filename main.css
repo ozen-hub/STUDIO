@@ -185,4 +185,40 @@ body::-webkit-scrollbar-thumb{
 .service-top-desc{
     margin-top: 20px;
 }
+
+.service-grid-outer{
+    width: 100%;
+    height: auto;
+}
+.service-grid-inner{
+    height: 420px;
+    background-color: #1A1A1A;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-1{
+
+    background-image: url('https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-3{
+
+    background-image: url('	https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.link , .service-grid-title{
+    color: #FE214F;
+}
+.service-grid-header{
+    color: white;
+}
+.desc-service-grid{
+    color: #bdc3c7;
+}
+
+
 /* Service-area */
