@@ -123,6 +123,13 @@ body::-webkit-scrollbar-thumb{
     height: 80px;
     background-color: #FE214F;
     border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.widget-icon svg{
+    width: 60%;
+    height: 60%;
 }
 .widget-header{
     text-align: center;
